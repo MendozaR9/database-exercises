@@ -8,3 +8,5 @@ create table if not exists albums
     sales float not null ,
     genre varchar(255) not null
 );
+show create database  codeup_test_db;
+describe albums;
