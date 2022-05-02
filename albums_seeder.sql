@@ -1,4 +1,5 @@
 use codeup_test_db;
+truncate albums;
 insert into albums(artist, name, release_date, sales, genre)
 values('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, post-disco, funk, rock'),
        ('Eagles', 'Their Greatest Hits (1971–1975)', 1976, 41.2, 'Country rock, soft rock, folk rock'),
@@ -33,3 +34,4 @@ values('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, post-disco, funk, rock')
        ('The Beatles', 'Abbey Road', 1969, 14.4, 'Rock'),
        ('Various artists', 'Grease: The Original Soundtrack from the Motion Picture', 1978, 14.4, 'Rock and roll'),
        ('Elton John', 'Goodbye Yellow Brick Road', 1973, 8.5, 'rock, pop rock, glam rock');
+
