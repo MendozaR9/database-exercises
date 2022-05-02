@@ -23,3 +23,14 @@ show  tables ;
 describe  cats;
 
 drop table if exists cats;
+
+insert into users( username, email, first_name, last_name, middle_name)
+values('mendozaR', 'ryanmendoza.00@gmail.com', 'Ryan', 'Mendoza', 'Alexis'),
+       ('joejoe', 'joe@joe.com', 'joe', 'joe', null);
+
+select id, username, email
+from users;
+
+select *
+from users
+where id >1;
