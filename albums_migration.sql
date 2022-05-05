@@ -10,3 +10,6 @@ create table if not exists albums
 );
 show create database  codeup_test_db;
 describe albums;
+
+alter table albums
+add unique (name, artist);
